@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body{
+    background-color: hsl(275, 100%, 97%);
+    font-family: "Work Sans", sans-serif;
+}
+
+main section{
+    position: relative;
+}
+
+/* Img background */
+.background-mobile{
+    width: 100%;
+}
+
+.menu{
+    width: 90%;
+    height: auto;
+    position: absolute;
+    top: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    left:0;
+    right: 0;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 2%;
+    padding: 30px;
+}
+
+/* Encabezado */
+.header{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.img-star{
+    width: 30px;
+}
+
+.title{
+    color: hsl(292, 42%, 14%);
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: 20px;
+}
+
+
+/* Acordion */
+.accordion-container{
+    border-bottom: 1px solid hsl(275, 100%, 97%);
+    padding-bottom: 20px; 
+    margin-bottom: 25px;
+    
+}
+
+.accordion-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion-title p{
+    color: hsl(292, 42%, 14%);
+    font-weight: 600;
+    width: 80%;
+}
+
+.button-plus{
+    cursor: pointer;
+}
+
+.button-minus{
+    cursor: pointer;
+}
+
+.text-container{
+    padding-top: 20px;
+}
+
+.accordion-text{
+    color: hsl(292, 16%, 49%);
+    font-weight: 400;
+}
+
+.inactivo{
+    display: none;
+    transition: display 1s ease;
+}
+
+
